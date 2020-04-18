@@ -1,0 +1,21 @@
+{
+  "name": "size-on-disk",
+  "version": "1.0.0",
+  "description": "get the size in bytes from a path on disk, dir or file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.spec.js",
+    "coverage": "nyc mocha ./test/**/*.spec.js"
+  },
+  "keywords": [],
+  "author": "Kev",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-jsdoc": "^23.0.0",
+    "jsdoc": "^3.6.4",
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.1"
+  }
+}
